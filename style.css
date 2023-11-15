@@ -1,3 +1,16 @@
-body {
-    background-image: url("https://th.bing.com/th/id/R.7fc925391f319c628c54cac8314e5c17?rik=8AmASfLNizIxyQ&pid=ImgRaw&r=0");
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
+
+  body{
+    background-color: rgb(234, 245, 244);
+}
+
