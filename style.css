@@ -2,18 +2,10 @@ h1{
     text-align: center;
     margin-top: 50px;
 }
-img {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
 
   body{
-    background-color: rgb(234, 245, 244);
+    background-color: rgb(171, 169, 175);
 }
-
 
 
 #logo{
@@ -33,8 +25,21 @@ img {
     width: 600px;
 }
 
+.p-1{
+  background-color: rgb(111, 202, 255);
+  margin-top: 100px;
+  margin-right: 10px;
+  margin-left: 30px;
+  border-radius: 25px;
+}
+img{
+  border-radius: 50%;
+}
 
-
+.marge{
+  margin-right: 500px;
+  margin-left: 500px;
+}
 
 
 
