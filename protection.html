@@ -19,8 +19,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="testimonial.html">Testimonials</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="protection.html">Protection </a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="protection.html"  role="button" data-bs-toggle="dropdown">
+                    Protection
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="protection.html">Protection Docuemnt</a></li>
+                    <li><a class="dropdown-item" href="rules.html">Rules and Regulations</a></li>
+                    
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="sign-up.html">Sign Up</a>
@@ -38,9 +45,9 @@
       </h1>
     </header>
 
-    <main>
-
-      <p>
+    <main id="kailtyn">
+<article>
+   <p id="pk">
           Before embarking on a journey to your planet of choice, its important that you agree to the terms and conditions of the Protection Docuemnt.
           This document ensures that in the unlikely event an accident, cancellation, transportation error, or any other concerning irregularity occurs, your safety 
           anda our safety will be gaurded. As we are partnered with NASA, the participant must abide by NASA rules and regulations as well as Out of Touch. For more information on 
@@ -52,6 +59,15 @@
           they notify Out of Touch at least two weeks in advance, and the nominated participant will not be granted the journey unless they have been awarded it via Out of Touch. If you 
           choose to agree to these terms and conditions, you must select the "I agree" button and continue on to our sign up page.
       </p>
+</article>
+     
+<div class="flex-row">
+  <div class="wrapper">
+      <canvas id="signature-pad" width="400" height="200"></canvas>
+  </div>
+  <div class="clear-btn">
+      <button id="clear"><span> Clear </span></button>
+</div>
 
       <a href="sign-up.html" class=" marge btn btn-danger d-block" tabindex="-1" role="button">I agree!</a>
 
