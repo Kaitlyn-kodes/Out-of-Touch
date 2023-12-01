@@ -6,6 +6,7 @@
     <title>Protection</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   	<link rel="stylesheet" type="text/css" a href="style.css">
+   
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -66,16 +67,29 @@
       </p>
 </article>
      
-<div class="flex-row">
-  <div class="wrapper">
-      <canvas id="signature-pad" width="400" height="200"></canvas>
+<div container-fluid id="mydiv">
+  <div id="mydivheader">Sign Here!</div>
+    <canvas id="signature-pad" class="signature-pad" width=400 height=200></canvas>
+  </div>
+  
+  
+  <button id="save-png"  role="button">Save as PNG</button>
+  <button id="save-jpeg">Save as JPEG</button>
+  <button id="save-svg">Save as SVG</button>
+  <button id="draw"  role="button">Draw</button>
+  <button id="erase">Erase</button>
+  <button id="clear">Clear</button>
+  
+  <div id="result_pad">
   </div>
 
   
   
+<div>
+    <a href="sign-up.html" class=" marge btn btn-danger d-block" tabindex="-1" role="button">I agree!</a>
+</div>
+    
 
-      <a href="sign-up.html" class=" marge btn btn-danger d-block" tabindex="-1" role="button">I agree!</a>
-<br>
 
 
     </main>
@@ -83,7 +97,7 @@
     <footer>
       <img col-md-6 src="img/logo2.jpg">
     </footer>
-
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
