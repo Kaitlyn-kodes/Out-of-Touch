@@ -15,13 +15,17 @@ h1{
 
   
 
-.p-1{
-  background-color: rgb(0, 0, 0);
-  color: #f1f1f1;
+p {
   margin-top: 100px;
   margin-right: 10px;
   margin-left: 30px;
   border-radius: 25px;
+  font-size: larger;
+  font-weight: 950;
+}
+p {
+  
+  color: rgb(0, 0, 0);
 }
 
 
@@ -52,7 +56,7 @@ section{
   filter: brightness(0.6);
 }
 img {
-  border: 5px solid #b1fd0054;
+  border: 5px solid rgb(236, 238, 231);
 }
 
 
@@ -65,13 +69,6 @@ ol{
 
 
 
-.pk{
-  background-color: rgb(255, 221, 111);
-  margin-top: 100px;
-  margin-right: 10px;
-  margin-left: 30px;
-  border-radius: 25px;
-}
 
 
 .testimonial {
@@ -140,36 +137,34 @@ footer {
   padding: 80px;
 }
 
-#mydiv {
-  position: absolute;
-  z-index: 9;
-  border: 1px solid #d3d3d3;
-  text-align: center;
+body{
+  background-image: url("img/galaxy.jpg")
 }
 
-#mydivheader {
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  background-color: #2196F3;
-  color: #fff;
-}
-
-.signature-pad {
-  position: relative;
-  left: 0;
-  top: 0;
-  width:400px;
-  height:200px;
-  background-color: transparent;
-}
-
-body {
-  margin: 0%;
-  padding: 0%;
-  background-image: url(img/galaxy.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+.signature-component {
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  
+  button {
+    padding: 1em;
+    background: transparent;
+    box-shadow: 2px 2px 4px #777;
+    margin-top: .5em;
+    border: 1px solid #777;
+    font-size: 1rem;
+    &.toggle{
+      background: rgba(red, .2);
+    }
+  }
+  canvas {
+    display: block;
+    position: relative;
+    border: 1px solid;    
+  }
+  img {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
 }
