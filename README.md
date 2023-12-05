@@ -17,3 +17,7 @@ get better images
 find a background(probably solid)
 
 write full readme file
+
+sections on contact us
+ 
+ social media on contact us
