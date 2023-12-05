@@ -21,10 +21,9 @@ p {
   margin-left: 30px;
   border-radius: 25px;
   font-size: larger;
-  font-weight: 950;
+  font-weight: 400;
 }
 p {
-  
   color: rgb(0, 0, 0);
 }
 
@@ -79,92 +78,55 @@ ol{
 }
 
 
-/* Style the tab */
-.tab {
-  float: left;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  width: 30%;
-  height: 300px;
-}
-
-/* Style the buttons that are used to open the tab content */
-.tab button {
-  display: block;
-  background-color: inherit;
-  color: rgb(0, 0, 0);
-  padding: 22px 16px;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current "tab button" class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-  float: left;
-  padding: 0px 12px;
-  border: 1px solid #ccc;
-  width: 70%;
-  border-left: none;
-  height: 300px;
-}
 
 
 
 
-
-.About-us {
-  margin-top: 100px;
-  margin-right: 40px;
-  margin-left: 40px;
-}
 
 footer {
-  background-color:black;
-  padding: 80px;
+  height: 180px;
+
+  background: #000000;
 }
 
-body{
-  background-image: url("img/galaxy.jpg")
+
+.jumbotron1{
+  background-image: url("img/blue\ galaxy\ center\ stars.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+.jumbotron2{
+  background-image: url(img/galaxy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.signature-component {
-  text-align: left;
-  display: inline-block;
-  max-width: 100%;
+form-check{
   
-  button {
-    padding: 1em;
-    background: transparent;
-    box-shadow: 2px 2px 4px #777;
-    margin-top: .5em;
-    border: 1px solid #777;
-    font-size: 1rem;
-    &.toggle{
-      background: rgba(red, .2);
-    }
-  }
-  canvas {
-    display: block;
-    position: relative;
-    border: 1px solid;    
-  }
-  img {
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
 }
+
+#whiteword{
+  color:whitesmoke:
+}
+
+#myBtn {
+  display:block; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#sticky {padding: 2rem;  position: sticky; bottom: 0;}
