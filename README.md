@@ -1,16 +1,15 @@
 # Out-of-Touch
- 
-Index:top-button
+
 
 All Footers
 
+Complete Sign Up page
+
 About Us: all not in bootstrap
 
-Contact:all of the contact page
 
-add comments
 
-organize css stylesheet
+add comments to everything except index, rules, and protection
 
 get better images
 
@@ -20,4 +19,6 @@ write full readme file
 
 sections on contact us
  
- social media on contact us
+social media on contact us
+
+make sure all pages are beautified

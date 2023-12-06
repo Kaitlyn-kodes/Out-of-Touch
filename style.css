@@ -1,20 +1,10 @@
+/*h1 tags code*/
 h1 {
   text-align: center;
   margin-top: 50px;
 }
 
-
-#logo {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 40px;
-  height: 40px;
-  overflow: hidden;
-}
-
-
-
+/*p tags code*/
 p {
   margin-top: 100px;
   margin-right: 10px;
@@ -24,19 +14,13 @@ p {
   font-weight: 400;
 }
 
-
-
-
-.marge {
-  margin-right: 500px;
-  margin-left: 500px;
-}
-
+/*article tags code*/
 article {
   width: 80%;
   margin: 10%;
 }
 
+/*section tags code*/
 section {
   border-bottom: solid 1px;
   width: 270px;
@@ -44,6 +28,27 @@ section {
 
 }
 
+/*ordered list tag code*/
+ol {
+  width: 80%;
+  margin: 10%;
+}
+
+/*Logo  code*/
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.logo {
+  border-radius: 50%;
+}
+ 
+/*??? tags code*/
 .c-item {
   height: 480px;
 }
@@ -56,102 +61,45 @@ section {
 
 
 
-
-ol {
-  width: 80%;
-  margin: 10%;
-}
-
-
-.logo{
-  border-radius: 50%;
-}
-
-
+/*Testimonial code*/
 .testimonial {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
 }
+/*Index page word code*/
+.index-words{
+  color: #fff;
+  background-color: #111;
+}
 
-
-
-
-
-
-
-
-
+/*BACKGROUND IMAGE codes*/
 .jumbotron1 {
-  background-image: url("img/blue\ galaxy\ center\ stars.jpg");
+  background-image: url("img/cool\ galaxy.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  opacity:100 ;
 }
 
 .jumbotron2 {
-  background-image: url(img/galaxy.jpg);
+  background-image: url(img/clear\ dark\ blue\ stars.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jumbotron3 {
+  background-image: url(img/clear\ black\ galaxy\ spark\ of\ color.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jumbotron4 {
+  background-image: url(img/black\ galaxy\ stars.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-form-check {}
-
-#whiteword {
-  color: whitesmoke:
-}
-
-#myBtn {
-  display: block;
-  /* Hidden by default */
-  position: fixed;
-  /* Fixed/sticky position */
-  bottom: 20px;
-  /* Place the button at the bottom of the page */
-  right: 30px;
-  /* Place the button 30px from the right */
-  z-index: 99;
-  /* Make sure it does not overlap */
-  border: none;
-  /* Remove borders */
-  outline: none;
-  /* Remove outline */
-  background-color: red;
-  /* Set a background color */
-  color: white;
-  /* Text color */
-  cursor: pointer;
-  /* Add a mouse pointer on hover */
-  padding: 15px;
-  /* Some padding */
-  border-radius: 10px;
-  /* Rounded corners */
-  font-size: 18px;
-  /* Increase font size */
-}
-
-#myBtn:hover {
-  background-color: #555;
-  /* Add a dark-grey background on hover */
-}
-
-#sticky {
-  padding: 2rem;
-  position: sticky;
-  bottom: 0;
-}
-@media only screen and (max-width: 1200px) {
-  body {
-    background-color: lightblue;
-  }
-}
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: skyblue;
-  }
-}
-
-.js{
+/*background image code*/
+.js {
   background-image: url(img/galaxy.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -159,86 +107,167 @@ form-check {}
   background-position: center;
 }
 
-.tab {
-  margin-left: 500px;
-  margin-right: 500px;
+/*Justification-center class code*/
+.cent {
+  justify-content: center;
+}
+
+/*Text-indent tags code*/
+.dent{
+  text-indent: 50px;
+}
+
+/*All things footer code*/
+footer {
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #837e7e;
 }
 
-/* Style the buttons that are used to open the tab content */
-.tab button {
-  background-color: inherit;
-  float: ;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-  height: 500px;
-  margin-left: 500px;
-  margin-right: 500px;
+.footer-bottom {
+  background-color: #000;
+  width: 100vw;
+  padding: 20px 0;
   text-align: center;
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
 }
 
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+ /*All things social  code*/
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a li {
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+
+.socials a:hover i {
+  color: aqua;
+}
+
+/*Signiture Pad code*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
- {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    background: #ececec;
-    overflow: hidden;
-    
+
+  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: #ececec;
+  overflow: hidden;
+
 }
+
 .flex-row {
-    display: flex;
+  display: flex;
 }
+
 .wrapper {
-    border: 1px solid #4b00ff;
-    border-right: 0;
+  border: 1px solid #4b00ff;
+  border-right: 0;
 }
+
 canvas#signature-pad {
-    background: #fff;
-    width: 100%;
-    height: 100%;
-    cursor: crosshair;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  cursor: crosshair;
 }
+
 button#clear {
-    height: 100%;
-    background: #4b00ff;
-    border: 1px solid transparent;
-    color: #fff;
-    font-weight: 600;
-    cursor: pointer;
+  height: 100%;
+  background: #4b00ff;
+  border: 1px solid transparent;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
 }
+
 button#clear span {
-    transform: rotate(90deg);
-    display: block;
+  transform: rotate(90deg);
+  display: block;
+}
+
+/*Media tags code*/
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: skyblue;
+  }
+}
+
+.wrapperr{
+  position: relative;
+  width: 400px;
+  height: 440px;
+  background: transparent;
+  border: 2px solid rgba(225, 255, 255, .5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5)
 }
