@@ -43,6 +43,8 @@ ol {
   margin: 10%;
 }
 
+
+
 /*Logo  code*/
 #logo {
   position: absolute;
@@ -117,7 +119,7 @@ ol {
 
 .jumbotron3 {
   background-image: url(img/clear\ black\ galaxy\ spark\ of\ color.jpg);
-  background-size: ;
+  background-size:cover ;
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-position: center;
