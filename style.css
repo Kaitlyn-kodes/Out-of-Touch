@@ -14,13 +14,23 @@ p {
   font-weight: 400;
 }
 
-/*footer*/
-
-
-/*test paragraph code tags code*/
+/*testimonial paragraph  tags code*/
 .p-1 {
   background-color: #ffffff9d;
   color: rgb(0, 183, 255) 0, 255);
+}
+
+/*Index page p tag code*/
+.index-words {
+  background-color: #ffffff9d;
+  color: black;
+}
+.contact1{
+  font-family: cursive ;
+ 
+}
+.contact2{
+  class="text-align:center font-size:130%;"
 }
 
 /*article tags code*/
@@ -34,7 +44,6 @@ section {
   border-bottom: solid 1px;
   width: 270px;
   margin-left: 30%;
-
 }
 
 /*ordered list tag code*/
@@ -42,8 +51,6 @@ ol {
   width: 80%;
   margin: 10%;
 }
-
-
 
 /*Logo  code*/
 #logo {
@@ -84,28 +91,17 @@ ol {
   margin-bottom: auto;
 
 }
-.testimgborder{
-  border-radius: 25%;
-  border-color: #4b00ff;
-}
 
-/*Index page word code*/
-.index-words {
-  background-color:#ffffff9d;
-  color: black;
-}
 
-.float-right{
-  <span class="float-end">Float right</span>
-}
 
 /*BACKGROUND IMAGE codes*/
- {}
-.jumbotron1{
-  background-image:url("img/cool\ galaxy.jpg");
+  {}
+
+.jumbotron1 {
+  background-image: url("img/cool\ galaxy.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment:fixed;
+  background-attachment: fixed;
   background-position: center;
 }
 
@@ -113,66 +109,69 @@ ol {
   background-image: url(img/clear\ dark\ blue\ stars.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment:fixed;
+  background-attachment: fixed;
   background-position: center;
 }
 
 .jumbotron3 {
   background-image: url(img/clear\ black\ galaxy\ spark\ of\ color.jpg);
-  background-size:cover ;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment:fixed;
+  background-attachment: fixed;
   background-position: center;
 }
 
 .jumbotron4 {
-  background-image: url(img);
-  font-family: 'poppins', sans-serif;
-  align-content: center;
+background-image: url(img/clear\ all\ black.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
 }
 
-form{
-  width: 24%;
-  background-color: rgb(255, 255, 255);
-  padding: 50px;
-  border-radius: 20px;
-  margin-top: 150px;
-  margin-left: 650px;
-
-  
-
-}
-
-.btn-primary{
-  width: 100%;
-  border: none;
-  border-radius: 50px;
-  background: linear-gradient(rgb(110, 110, 223)60%, ;)
-}
-
-.form-control{
-  color: rgba(0,0,0,.87);
-  border-bottom-color: rgba(0,0,0,.42);
-  box-shadow: none; 
-  border: none;
-  border-bottom: 1px solid;
-  border-radius: 4px 4px 0 0;
-}
-
-.js{
+.js {
   background-image: url(img/galaxy.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 }
-.js2{
+
+.js2 {
   background-image: url(img/clear\ earth.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 }
+
+ /* ??? */
+form {
+  
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  border-radius: 20px;
+  align-items: center;
+
+}
+
+.btn-primary {
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(rgb(110, 110, 223)60%, ; )
+}
+
+.form-control {
+  color: rgba(0, 0, 0, .87);
+  border-bottom-color: rgba(0, 0, 0, .42);
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 4px 4px 0 0;
+}
+
+
 
 /*Justification-center class code*/
 .cent {
@@ -236,4 +235,3 @@ button#clear span {
     background-color: skyblue;
   }
 }
-

@@ -3,15 +3,10 @@
 
 All Footers
 
-Complete Sign Up page
 
 About Us: all not in bootstrap
 
-
-
-add comments to everything except index, rules, and protection
-
-get better images
+add comments to every page
 
 find a background(probably solid)
 
