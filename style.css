@@ -106,7 +106,7 @@ ol {
 }
 
 .jumbotron2 {
-  background-image: url(img/clear\ dark\ blue\ stars.jpg);
+  background-image: url(img/clear\ blue\ stars.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -127,6 +127,13 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
+}
+.jumbotron5{
+  background-image: url(img/clear\ blue\ stars.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .js {
